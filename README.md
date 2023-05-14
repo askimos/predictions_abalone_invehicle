@@ -80,4 +80,10 @@ Retrained model on entire training set with optimal hyper parameters and final g
 estimate on training set; we distinguish between different scaling strategies: 1 refers to no scaling,
 2 refers to min-max scaling and 3 to normalization.
 - other png results should be read and interpreted as barcharts/plots according to the labeling on the axes.
-- src contains source code needed to run the experiment
+- src folder contains source code needed to run the experiment
+- results folder contains result files as png images
+- eda folder contains EDA visualizations to help understand the data as png images
+- data folder contains input data used in the experiment
+- performance metrics used are: MSE and Accuracy for Abalone Age dataset, Recall and Accuracy for in-vehicle coupon recommendation dataet
+- software needed to run the experiment is Python version 3.9.13
+- more information about specific attributes of the data is provided on original webpages specified in paragraph 3.
