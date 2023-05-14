@@ -77,3 +77,4 @@ The results of the In-Vehicle Coupon Recommendation task show that the Random Fo
 Retrained model on entire training set with optimal hyper parameters and final generalization error
 estimate on training set; we distinguish between different scaling strategies: 1 refers to no scaling,
 2 refers to min-max scaling and 3 to normalization.
+- other png results should be read and interpreted as barcharts/plots according to the labeling on the axes.
