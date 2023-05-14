@@ -26,8 +26,8 @@ Two datasets were used for the experiments:
 - file format	    .csv (1 file) 
 
 The task in the Abalone Age UCI dataset is to predict the age of abalone (a type of shellfish) based on a number of physical attributes such as length, diameter, height, and weight.
+The goal in in-vehicle coupon recommendation dataset is to train a classifier that takes the features as input and predicts the target variable, which is whether or not the customer will redeem the coupon.
 
-The task in the In-Vehicle Coupon Recommendation dataset is to develop a model that can accurately recommend relevant coupons to drivers based on their driving routes, personal characteristics, and purchase history. The dataset includes information on driving routes, weather conditions, demographic information, and the purchase history of the drivers, as well as information about the coupons available for recommendation. The goal is to develop a recommendation system that can use this information to suggest relevant coupons to drivers while they are driving, which could help increase sales for merchants and improve the driving experience for the users.
 
 ## 4. Experiment setup
 Jupyter notebooks was used as a programming platform. Implementations of the chosen machine learning models were taken from the scikit-learn [[3]](https://scikit-learn.org/stable/) framework for Python [[4]](https://www.python.org/). The three chosen alogirthms were k-Nearest-Neighbours, Random Forest and Neural Networks.
@@ -65,7 +65,7 @@ the time attributes might be weighted too much compared to the One-Hot encoded a
 
 
 
-## 5. Discussion
+## 5. Findings
 In Abalone Age task every algorithm did much better than the baseline as expected. Scaling helps mainly in KNN case as expected as it is sensitive to differences in the scales of the features. . All algorithms performed similarly when fine-tuned for the given problem. We could say that KNN performed the worst and Neural Networks the best, but the difference is negligible.
 
 
@@ -73,4 +73,7 @@ The results of the In-Vehicle Coupon Recommendation task show that the Random Fo
 
 ## 6. Metadata 
 - Date of experiment completion: 13.05.2023
-
+- `final_comparison.png`: Left: Comparison of optimal hyper parameters with cross validation (left) on the training set. Right:
+Retrained model on entire training set with optimal hyper parameters and final generalization error
+estimate on training set; we distinguish between different scaling strategies: 1 refers to no scaling,
+2 refers to min-max scaling and 3 to normalization.
