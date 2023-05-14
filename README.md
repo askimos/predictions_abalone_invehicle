@@ -72,7 +72,7 @@ In Abalone Age task every algorithm did much better than the baseline as expecte
 The results of the In-Vehicle Coupon Recommendation task show that the Random Forest (RF) algorithm performs the best in terms of accuracy, while k-NN achieves the highest recall score. As expected, scaling the data has no effect on the performance of RF, but has a positive effect on the other algorithms. Both hold-out and cross-validation (CV) lead to similar accuracy scores, but there are stronger fluctuations in the recall scores. It is worth noting that different scaling techniques have been tested for other parameters, and similar results have been achieved with roughly the same hyperparameters leading to an optimal outcome. The baseline accuracy, which is the accuracy achieved by guessing the majority class, is 0.57. Therefore, the models significantly outperform guessing in terms of accuracy.
 
 ## 6. Metadata 
-- Date of experiment completion: 13.05.2023
+- Date of experiment completion: 14.05.2023
 - `final_comparison.png`: Left: Comparison of optimal hyper parameters with cross validation (left) on the training set. Right:
 Retrained model on entire training set with optimal hyper parameters and final generalization error
 estimate on training set; we distinguish between different scaling strategies: 1 refers to no scaling,
