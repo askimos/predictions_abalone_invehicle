@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/640607845.svg)](https://zenodo.org/badge/latestdoi/640607845)
+
 ## 1. Setup 
 - Install Python 3.9.13, Jupyter, and the imported libraries
 - Run `abalone_age_prediction.ipynb` and/or `in-vehicle_coupon_prediction.ipynb`
