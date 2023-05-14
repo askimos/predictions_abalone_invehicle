@@ -12,7 +12,7 @@ The objective of this study is to use two machine learning models to address a c
 ## 3. Chosen datasets
 Two datasets were used for the experiments:
  
-### Dataset “Abalone Age” (Kaggle [[1]](https://archive-beta.ics.uci.edu/dataset/1/abalone))
+### Dataset “Abalone Age” (OpenML [[1]](https://openml.org/d/44956))
 - \# of instances:	4177
 - \# of attributes:	8
 - dataset characteristics:	Multivariate
