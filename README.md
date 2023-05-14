@@ -38,6 +38,7 @@ Jupyter notebooks was used as a programming platform. Implementations of the cho
 - Categorical attributes where One-Hot encoded to allow compatability with k-NN and neural Networks.
 - Simple search for outliers was carried out and found outliers has been removed from the dataset.
 - Numerical attributes were either unscaled or normalized.
+
 The official description of the dataset provided by the authors claimed that there were no missing values
 present in the data. However, upon further investigation, we discovered that there were instances where the
 Height variable had a value of 0.0. We decided to treat them as missing values and therefore removed them
